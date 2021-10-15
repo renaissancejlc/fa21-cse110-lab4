@@ -40,3 +40,9 @@ Solution: the function call will return the array [1,2,3]. This is because when 
 18. The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part2-question18.js)
 
 19. What is the output of the above code? (This should be in your part2.md)
+Solution:
+1
+4
+3
+2
+Explanation: This is because "1" has no delay and is logged first in code. "2" has the longest delay, thus is last to be logged. "4" 'has no delay, thus is second to be logged. And "3" has the shortest delay, thus is third to be logged.
