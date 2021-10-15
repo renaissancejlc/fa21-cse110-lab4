@@ -9,4 +9,27 @@
 9. ^^^ What will happen at line 11 and why? If the code causes an error, explain why. ^^^ Solution: An error is returned because i is of the type 'let' and cannot be accessed from line 11.
 10. ^^^ What will happen at line 12 and why? If the code causes an error, explain why. ^^^ Solution: The value 3 will be logged into the console, since that is the value that the 'const' vaariable was assigned to in line 4.
 11. ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^ Solution: [50, 100, 150]. This is because discountedPrice will still hold the accurate discounted price even without rounded the answer.
-
+12. A. Accessing the value of the name property in the student object:
+B. Accessing the value of the Grad Year property in the student object
+C: Calling the function for the greeting property in the student object
+D: Accessing the name property of the object in the Favorite Teacher property in student
+E: Access the first index in the array of the courseLoad property of the student object
+13. Arithmetic
+A. ‘3’ + 2 = 32
+B. ‘3’ - 2 = 1
+C. 3 + null = 3
+D. ‘3’ + null = 3null
+E. true + 3 = 4
+F. false + null = 0
+G. '3' + undefined = 3undefined
+H. '3' - undefined = NaN
+14. Comparison 
+A. ‘2’ > 1 --> true
+B. ‘2’ < ‘12’ --> false
+C. 2 == ‘2’ --> true
+D. 2 === ‘2’ --> false
+E. true == 2  --> false
+F. true === Boolean(2) --> true
+15. Explain the difference between the == and === operators.
+== is the equality operator. Like other operators, it can evalaluate data of different types. === is the strict equality operator. This means that it takes the type of the data into consideration when comparing equality. So, for the strict equality operator, the types of the data being comparaed and their values must be equivalent.
+16. 
