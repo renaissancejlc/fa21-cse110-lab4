@@ -34,7 +34,8 @@ F. true === Boolean(2) --> true
 == is the equality operator. Like other operators, it can evalaluate data of different types. === is the strict equality operator. This means that it takes the type of the data into consideration when comparing equality. So, for the strict equality operator, the types of the data being comparaed and their values must be equivalent.
 16. Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.  (This should be in a JS file part2-question16.js)
 
-17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. 
+17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md).
+Solution: the function call will return the array [1,2,3]. This is because when we call modifyArray using the input [1,2,3] and the function doSomething, the for loop inside modifyArray will call the inputed doSomething function on each item in the inputted array, and return the results in a new array.
 
 18. The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part2-question18.js)
 
