@@ -8,4 +8,5 @@
 8. ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^ Solution: It returns the array [50,100,150]. This is because the variables 'let discountedPrice' and 'let finalPrice' are assigned and mainpulated in the same block where they are created. Furthermore, 'let discounted' is populated (using finalPrice and discountedPrice) in the same block where it is created. So, since no scope rules are being violated by the algorithm, the expected discounted array will be returned.
 9. ^^^ What will happen at line 11 and why? If the code causes an error, explain why. ^^^ Solution: An error is returned because i is of the type 'let' and cannot be accessed from line 11.
 10. ^^^ What will happen at line 12 and why? If the code causes an error, explain why. ^^^ Solution: The value 3 will be logged into the console, since that is the value that the 'const' vaariable was assigned to in line 4.
-11. ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^ Solution: 
+11. ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^ Solution: [50, 100, 150]. This is because discountedPrice will still hold the accurate discounted price even without rounded the answer.
+
