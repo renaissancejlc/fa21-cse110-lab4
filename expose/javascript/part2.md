@@ -15,22 +15,22 @@ C: Calling the function for the greeting property in the student object
 D: Accessing the name property of the object in the Favorite Teacher property in student
 E: Access the first index in the array of the courseLoad property of the student object
 13. Arithmetic
-A. ‘3’ + 2 = 32
-B. ‘3’ - 2 = 1
-C. 3 + null = 3
-D. ‘3’ + null = 3null
-E. true + 3 = 4
-F. false + null = 0
-G. '3' + undefined = 3undefined
-H. '3' - undefined = NaN
+A. ‘3’ + 2 = 32 //this is because javascript will concatenatae 2 to the first operand's string
+B. ‘3’ - 2 = 1 //subtraction does not have any string operation, so it will do integer subtraction
+C. 3 + null = 3 //null has an integer value of 0 this the expression is equivalent to 3 + 0 = 3
+D. ‘3’ + null = 3 //the addition here concatenates the second operand to the second operand's string
+E. true + 3 = 4 //true takes on the value of 1 in integer addition
+F. false + null = 0 //false takes a value of 0, as does null, thus adding the two will lead to zero
+G. '3' + undefined = 3undefined //the + here will concatenate the second operand to the first operand since the first is a string
+H. '3' - undefined = NaN //the subtraction operator does not take on any meaning in strings or for undefined, therefore there is no available answer for this expression
 14. Comparison 
-A. ‘2’ > 1 --> true
-B. ‘2’ < ‘12’ --> false
-C. 2 == ‘2’ --> true
-D. 2 === ‘2’ --> false
-E. true == 2  --> false
-F. true === Boolean(2) --> true
-15. Explain the difference between the == and === operators.
+A. ‘2’ > 1 --> true //this is because the string 2 evaluates to a greater value than the string 1
+B. ‘2’ < ‘12’ --> false //this is because the compare operation here compares strings, 2, has a greater string value than  12, beacuse it compares the first character of the string
+C. 2 == ‘2’ --> true //this is because the two pieces of data hold the same value, and since == does not test for type equality, it evaluates to true
+D. 2 === ‘2’ --> false //this is because the === operator compares the type of the two operands, and since they are not equivalent here, it evaluates to false
+E. true == 2  --> false //this is because 2 evaluates to the boolean false, thus the expression is not equivalent
+F. true === Boolean(2) --> true //this is because the two have the same boolean data types, and both evaluate to true, thus are strictly true. 
+15. Explain the difference between the == and === operators. 
 == is the equality operator. Like other operators, it can evalaluate data of different types. === is the strict equality operator. This means that it takes the type of the data into consideration when comparing equality. So, for the strict equality operator, the types of the data being comparaed and their values must be equivalent.
 16. Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.  (This should be in a JS file part2-question16.js)
 
